@@ -1,0 +1,26 @@
+
+body{
+    background-color: rosybrown;
+}
+#form{
+    background-color: navajowhite;
+    width: 25%;
+    margin: 120px auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+#btn{
+    color: black;  
+    background-color: palegreen;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 700px){
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}

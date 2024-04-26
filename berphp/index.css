@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    background-size: cover;
+    background-image: url('indexB.jpg');
+    width: 90vw; 
+    height: 100vh;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    body {
+        background-size: contain;
+    }
+}
+
+
+.side{
+   
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,49,49,1) 6%, rgba(255,145,77,1) 89%);
+}
+.whole{
+   
+    margin-left: 45px;
+    margin-top: 5%;
+    position: absolute;
+    border-radius: 30px;
+    border: 5px solid black;
+    width: 80%;
+    height: 80%;
+}
+.one{
+    padding-left: 20px;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: 2px solid black;
+    background: none;
+    width: 70%;
+    height: 7%;
+}
+.two{
+    padding-left: 20px;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 5%;
+    border: 2px solid black;
+    background: none;
+    width: 70%;
+    height: 7%;
+
+}
+.img1{
+    width: 70px;
+    position: absolute;
+    margin-top: 49%;
+    justify-content: center;
+    margin-left: 8%;
+}
+.img3{
+    width: 70px;
+    position: absolute;
+    margin-top: 58%;
+    justify-content: center;
+    margin-left: 8%;
+}
+.img2{
+    position: absolute;
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 18%;
+}
+h1{
+    font-size: 60px;
+    margin-top: 40%;
+    justify-content: center;
+    text-align: center;
+}
+.btn{
+    color: black;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+    border: 5px solid black;
+    background: rgb(255,49,49);
+    width: 60%;
+    height: 10%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 14%;
+    text-decoration: underline;
+}
+
+.forgot{
+    text-decoration: underline;
+    color: black;
+   font-size: 20px;
+   position: absolute;
+  margin-left: 20%;
+  margin-top: 40%;
+    
+}
